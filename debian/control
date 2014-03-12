@@ -25,7 +25,7 @@ Description: Wigets for use with Baloo
 Package: libbaloowidgets-dev
 Architecture: any
 Section: libdevel
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: libbaloowidgets4 (= ${binary:Version}), ${shlibs:Depends}, ${misc:Depends}
 Description: Development headers for developing applications with Baloo
  Baloo is a framework for searching and managing metadata.
  .
