@@ -7,6 +7,5 @@ baloo-widgets (4:4.12.80-0ubuntu1) UNRELEASED; urgency=low
   * Fix copyright 
 
   [ Jonathan Riddell ]
-  * New upstream beta release
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 13 Mar 2014 21:06:06 +0000
