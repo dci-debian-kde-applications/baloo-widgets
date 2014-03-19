@@ -1,4 +1,4 @@
-baloo-widgets (4:4.12.90-0ubuntu1) UNRELEASED; urgency=low
+baloo-widgets (4:4.12.90-0ubuntu1) trusty; urgency=low
 
   [ Jonathan Riddell ]
   * Initial release
@@ -6,4 +6,4 @@ baloo-widgets (4:4.12.90-0ubuntu1) UNRELEASED; urgency=low
   [ Scarlett Clark ]
   * Fix copyright
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 13 Mar 2014 23:37:25 +0000
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 19 Mar 2014 10:30:58 +0000
