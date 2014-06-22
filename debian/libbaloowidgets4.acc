@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<descriptor>
+
+<version>
+    4.13.2
+</version>
+
+<headers>
+    /usr/include/baloo/filemetadataconfigwidget.h
+    /usr/include/baloo/filemetadatawidget.h
+    /usr/include/baloo/tagwidget.h
+    /usr/include/baloo/widgets_export.h
+</headers>
+
+<libs>
+    /usr/lib/libbaloowidgets.so
+</libs>
+
+</descriptor>
