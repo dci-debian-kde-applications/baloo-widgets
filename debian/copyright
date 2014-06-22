@@ -11,9 +11,9 @@ Files: src/filemetadatawidget.cpp
        src/widgetfactory.cpp
        src/widgetfactory.h
        test/*
-Copyright: 2012-2013  Vishesh Handa <me@vhanda.in>
-           2008 by Sebastian Trueg <trueg@kde.org>
-           2009-2010 by Peter Penz <peter.penz@gmx.at>
+Copyright: 2012-2013, Vishesh Handa <me@vhanda.in>
+           2008, Sebastian Trueg <trueg@kde.org>
+           2009-2010, Peter Penz <peter.penz@gmx.at>
 License: LGPL-2.1+
  This library is free software; you can redistribute it and/or
  modify it under the terms of the GNU Lesser General Public
@@ -41,11 +41,13 @@ Files: src/filemetadataconfigwidget.cpp
        src/tagwidget.h
        src/tagwidget_p.h
        src/widgets_export.h
-Copyright: 2007 David Faure <faure@kde.org>
-           2006-2010 Sebastian Trueg <trueg@kde.org>
-           2009,2010 by Peter Penz <peter.penz@gmx.at>
-           2011-2013 by Vishesh Handa <me@vhanda.in>
-License: LGPL 2 or later
+Copyright: 2007, David Faure <faure@kde.org>
+           2010, Nokia Corporation and/or its subsidiary(-ies)
+           2006-2010, Sebastian Trueg <trueg@kde.org>
+           2004-2006, Trolltech ASA. All rights reserved
+           2009,2010, Peter Penz <peter.penz@gmx.at>
+           2011-2013, Vishesh Handa <me@vhanda.in>
+License: LGPL-2+
  This library is free software; you can redistribute it and/or
  modify it under the terms of the GNU Library General Public
  License as published by the Free Software Foundation; either
@@ -66,8 +68,9 @@ License: LGPL 2 or later
 
 Files: src/kedittagsdialog_p.h
        src/kedittagsdialog.cpp
-Copyright: 2009 by Peter Penz <peter.penz@gmx.at>
-License: LGPL 2
+Copyright: 2009, Peter Penz <peter.penz@gmx.at>
+           2014, Vishesh Handa <me@vhanda.in>
+License: LGPL-2
  This library is free software; you can redistribute it and/or
  modify it under the terms of the GNU Library General Public
  License version 2 as published by the Free Software Foundation.
@@ -82,11 +85,41 @@ License: LGPL 2
  the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
  Boston, MA 02110-1301, USA.
  .
- On Debian systems, the complete text of the GNU General Lesser
- Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
+ On Debian systems, the complete text of the GNU Library General Public
+ License version 2 can be found in "/usr/share/common-licenses/LGPL-2".
+
+Files: src/tagcheckbox.cpp
+       src/tagcheckbox.h
+       test/tagwidgetapp.cpp
+       test/tagwidgettest.cpp
+       test/tagwidgettest.h
+Copyright: 2010, Sebastian Trueg <trueg@kde.org>
+           2013, Vishesh Handa <me@vhanda.in>
+License: LGPL-2.1 or LGPL-3 or later approved by KDE e.V.
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Lesser General Public
+ License as published by the Free Software Foundation; either
+ version 2.1 of the License, or (at your option) version 3, or any
+ later version accepted by the membership of KDE e.V. (or its
+ successor approved by the membership of KDE e.V.), which shall
+ act as a proxy defined in Section 6 of version 3 of the license.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Lesser General Public License for more details.
+ .
+ You should have received a copy of the GNU Lesser General Public
+ License along with this library.  If not, see <http://www.gnu.org/licenses/>.
+ .
+ On Debian systems, the complete text of the GNU Lesser General Public
+ License version 2.1 can be found in "/usr/share/common-licenses/LGPL-2.1",
+ also on Debian systems, the complete text of the GNU Lesser General Public
+ License version 3 can be found in "/usr/share/common-licenses/LGPL-3".
 
 Files: debian/*
-Copyright: 2014 Jonathan Riddell <jriddell@ubuntu.com>
+Copyright: 2014, Jonathan Riddell <jriddell@ubuntu.com>
+           2014, Maximiliano Curia <maxy@debian.org>
 License: GPL-2+
  This package is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
