@@ -1,6 +1,6 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: baloo-widgets
-Source: http://community.kde.org/Baloo-Widgets
+Source: git://anongit.kde.org/baloo-widgets
 
 Files: src/filemetadatawidget.cpp
        src/filemetadatawidget.h
