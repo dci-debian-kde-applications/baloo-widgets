@@ -4,11 +4,11 @@ Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Rohan Garg <rohangarg@kubuntu.org>,
            Maximiliano Curia <maxy@debian.org>
-Build-Depends: baloo-dev (>= 4:4.13.2),
+Build-Depends: baloo-dev,
                cmake,
                debhelper (>= 9),
-               kdelibs5-dev (>= 4:4.13.2),
-               libkfilemetadata-dev (>= 4:4.13.2),
+               kdelibs5-dev (>= 4:4.10),
+               libkfilemetadata-dev,
                libphonon-dev,
                pkg-kde-tools
 Standards-Version: 3.9.5
