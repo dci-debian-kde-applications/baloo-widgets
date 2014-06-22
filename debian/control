@@ -1,7 +1,9 @@
 Source: baloo-widgets
 Section: kde
 Priority: optional
-Maintainer: Rohan Garg <rohangarg@kubuntu.org>
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Rohan Garg <rohangarg@kubuntu.org>,
+           Maximiliano Curia <maxy@debian.org>
 Build-Depends: baloo-dev (>= 4:4.13.2),
                cmake,
                debhelper (>= 9),
