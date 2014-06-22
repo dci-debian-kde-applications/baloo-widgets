@@ -2,32 +2,11 @@ Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: baloo-widgets
 Source: git://anongit.kde.org/baloo-widgets
 
-Files: src/filemetadatawidget.cpp
-       src/filemetadatawidget.h
-       src/indexeddataretriever.cpp
-       src/indexeddataretriever.h
-       src/metadatafilter.cpp
-       src/metadatafilter.h
-       src/widgetfactory.cpp
-       src/widgetfactory.h
-       test/*
+Files: *
 Copyright: 2012-2013, Vishesh Handa <me@vhanda.in>
            2008, Sebastian Trueg <trueg@kde.org>
            2009-2010, Peter Penz <peter.penz@gmx.at>
 License: LGPL-2.1+
- This library is free software; you can redistribute it and/or
- modify it under the terms of the GNU Lesser General Public
- License as published by the Free Software Foundation; either
- version 2.1 of the License, or (at your option) any later version.
- .
- This library is distributed in the hope that it will be useful,
- but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
- Lesser General Public License for more details.
- .
- You should have received a copy of the GNU Lesser General Public
- License along with this library; if not, write to the Free Software
- Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
 
 Files: src/filemetadataconfigwidget.cpp
        src/filemetadataconfigwidget.h
@@ -63,8 +42,8 @@ License: LGPL-2+
  the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
  Boston, MA 02110-1301, USA.
  .
- On Debian systems, the complete text of the GNU General Lesser
- Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
+ On Debian systems, the complete text of the GNU Library General Public
+ License version 2 can be found in "/usr/share/common-licenses/LGPL-2".
 
 Files: src/kedittagsdialog_p.h
        src/kedittagsdialog.cpp
@@ -120,19 +99,22 @@ License: LGPL-2.1 or LGPL-3 or later approved by KDE e.V.
 Files: debian/*
 Copyright: 2014, Jonathan Riddell <jriddell@ubuntu.com>
            2014, Maximiliano Curia <maxy@debian.org>
-License: GPL-2+
- This package is free software; you can redistribute it and/or modify
- it under the terms of the GNU General Public License as published by
- the Free Software Foundation; either version 2 of the License, or
- (at your option) any later version.
+License: LGPL-2.1+
+
+License: LGPL-2.1+
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Lesser General Public
+ License as published by the Free Software Foundation; either
+ version 2.1 of the License, or (at your option) any later version.
  .
- This package is distributed in the hope that it will be useful,
+ This library is distributed in the hope that it will be useful,
  but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- GNU General Public License for more details.
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Lesser General Public License for more details.
  .
- You should have received a copy of the GNU General Public License
- along with this program. If not, see <http://www.gnu.org/licenses/>
+ You should have received a copy of the GNU Lesser General Public
+ License along with this library; if not, write to the Free Software
+ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
  .
- On Debian systems, the complete text of the GNU General
- Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
+ On Debian systems, the complete text of the GNU General Public License
+ version 2.1 can be found in "/usr/share/common-licenses/LGPL-2.1".
