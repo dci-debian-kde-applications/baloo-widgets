@@ -20,7 +20,7 @@ Package: libbaloowidgets4
 Architecture: any
 Section: libs
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: Wigets for use with Baloo
+Description: Widgets for Baloo
  Baloo is a framework for searching and managing metadata.
  .
  This package contains GUI widgets for baloo.
