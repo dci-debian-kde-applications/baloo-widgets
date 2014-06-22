@@ -2,19 +2,20 @@ Source: baloo-widgets
 Section: kde
 Priority: optional
 Maintainer: Rohan Garg <rohangarg@kubuntu.org>
-Build-Depends: debhelper (>= 9), cmake,
- pkg-kde-tools,
- kdelibs5-dev (>= 4:4.13.2),
- baloo-dev (>= 4:4.13.2),
- libkfilemetadata-dev (>= 4:4.13.2),
- libphonon-dev
+Build-Depends: baloo-dev (>= 4:4.13.2),
+               cmake,
+               debhelper (>= 9),
+               kdelibs5-dev (>= 4:4.13.2),
+               libkfilemetadata-dev (>= 4:4.13.2),
+               libphonon-dev,
+               pkg-kde-tools
 Standards-Version: 3.9.5
 Homepage: http://projects.kde.org/baloo
 
 Package: libbaloowidgets4
 Architecture: any
 Section: libs
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Wigets for use with Baloo
  Baloo is a framework for searching and managing metadata.
  .
@@ -25,7 +26,9 @@ Description: Wigets for use with Baloo
 Package: libbaloowidgets-dev
 Architecture: any
 Section: libdevel
-Depends: libbaloowidgets4 (= ${binary:Version}), ${shlibs:Depends}, ${misc:Depends}
+Depends: libbaloowidgets4 (= ${binary:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
 Description: Development headers for developing applications with Baloo
  Baloo is a framework for searching and managing metadata.
  .
