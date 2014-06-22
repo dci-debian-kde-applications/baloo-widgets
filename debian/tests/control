@@ -1,6 +1,6 @@
-Tests: testsuite
-Depends: @
-Restrictions: build-needed
+# Tests: testsuite
+# Depends: @
+# Restrictions: build-needed
 
 Tests: acc
 Depends: @, dh-acc, exuberant-ctags

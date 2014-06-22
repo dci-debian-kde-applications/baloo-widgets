@@ -12,7 +12,6 @@ Build-Depends: baloo-dev,
                libphonon-dev,
                pkg-kde-tools
 Standards-Version: 3.9.5
-XS-Testsuite: autopkgtest
 Homepage: http://projects.kde.org/baloo-widgets
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/baloo-widgets.git
 Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/baloo-widgets.git
