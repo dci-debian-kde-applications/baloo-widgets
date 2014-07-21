@@ -1,6 +1,10 @@
 baloo-widgets (4:4.13.90-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Scarlett Clark ]
   * New upstream beta release
+
+  [ Jonathan Riddell ]
+  * Add missing build-dep libx11-dev
 
  -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Fri, 18 Jul 2014 21:59:45 -0700
 
