@@ -1,5 +1,34 @@
-# SymbolsHelper-Confirmed: 4:4.13.2 amd64
+# SymbolsHelper-Confirmed: 4:4.14.0 amd64
 libbaloowidgets.so.4 libfoo1 #MINVER#
+ _ZN5Baloo12QueryBuilder10handleTermERKNS_4TermE@Base 4:4.14.0
+ _ZN5Baloo12QueryBuilder11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.14.0
+ _ZN5Baloo12QueryBuilder11qt_metacastEPKc@Base 4:4.14.0
+ _ZN5Baloo12QueryBuilder16proposalSelectedEPNS_18CompletionProposalERK7QString@Base 4:4.14.0
+ _ZN5Baloo12QueryBuilder16staticMetaObjectE@Base 4:4.14.0
+ _ZN5Baloo12QueryBuilder17setParsingEnabledEb@Base 4:4.14.0
+ _ZN5Baloo12QueryBuilder7reparseEv@Base 4:4.14.0
+ _ZN5Baloo12QueryBuilderC1EPNS_11QueryParserEP7QWidget@Base 4:4.14.0
+ _ZN5Baloo12QueryBuilderC2EPNS_11QueryParserEP7QWidget@Base 4:4.14.0
+ _ZN5Baloo12QueryBuilderD0Ev@Base 4:4.14.0
+ _ZN5Baloo12QueryBuilderD1Ev@Base 4:4.14.0
+ _ZN5Baloo12QueryBuilderD2Ev@Base 4:4.14.0
+ _ZN5Baloo15GroupedLineEdit10paintEventEP11QPaintEvent@Base 4:4.14.0
+ _ZN5Baloo15GroupedLineEdit11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.14.0
+ _ZN5Baloo15GroupedLineEdit11qt_metacastEPKc@Base 4:4.14.0
+ _ZN5Baloo15GroupedLineEdit13keyPressEventEP9QKeyEvent@Base 4:4.14.0
+ _ZN5Baloo15GroupedLineEdit15editingFinishedEv@Base 4:4.14.0
+ _ZN5Baloo15GroupedLineEdit15removeAllBlocksEv@Base 4:4.14.0
+ _ZN5Baloo15GroupedLineEdit16staticMetaObjectE@Base 4:4.14.0
+ _ZN5Baloo15GroupedLineEdit17setCursorPositionEi@Base 4:4.14.0
+ _ZN5Baloo15GroupedLineEdit5clearEv@Base 4:4.14.0
+ _ZN5Baloo15GroupedLineEdit7setTextERK7QString@Base 4:4.14.0
+ _ZN5Baloo15GroupedLineEdit8addBlockEii@Base 4:4.14.0
+ _ZN5Baloo15GroupedLineEdit9selectAllEv@Base 4:4.14.0
+ _ZN5Baloo15GroupedLineEditC1EP7QWidget@Base 4:4.14.0
+ _ZN5Baloo15GroupedLineEditC2EP7QWidget@Base 4:4.14.0
+ _ZN5Baloo15GroupedLineEditD0Ev@Base 4:4.14.0
+ _ZN5Baloo15GroupedLineEditD1Ev@Base 4:4.14.0
+ _ZN5Baloo15GroupedLineEditD2Ev@Base 4:4.14.0
  _ZN5Baloo18FileMetaDataWidget11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.13.2
  _ZN5Baloo18FileMetaDataWidget11qt_metacastEPKc@Base 4:4.13.2
  _ZN5Baloo18FileMetaDataWidget11setReadOnlyEb@Base 4:4.13.2
@@ -55,6 +84,13 @@ libbaloowidgets.so.4 libfoo1 #MINVER#
  _ZN5Baloo9TagWidgetD0Ev@Base 4:4.13.2
  _ZN5Baloo9TagWidgetD1Ev@Base 4:4.13.2
  _ZN5Baloo9TagWidgetD2Ev@Base 4:4.13.2
+ _ZNK5Baloo12QueryBuilder10metaObjectEv@Base 4:4.14.0
+ _ZNK5Baloo12QueryBuilder14parsingEnabledEv@Base 4:4.14.0
+ _ZNK5Baloo15GroupedLineEdit10metaObjectEv@Base 4:4.14.0
+ _ZNK5Baloo15GroupedLineEdit14cursorPositionEv@Base 4:4.14.0
+ _ZNK5Baloo15GroupedLineEdit15minimumSizeHintEv@Base 4:4.14.0
+ _ZNK5Baloo15GroupedLineEdit4textEv@Base 4:4.14.0
+ _ZNK5Baloo15GroupedLineEdit8sizeHintEv@Base 4:4.14.0
  _ZNK5Baloo18FileMetaDataWidget10isReadOnlyEv@Base 4:4.13.2
  _ZNK5Baloo18FileMetaDataWidget10metaObjectEv@Base 4:4.13.2
  _ZNK5Baloo18FileMetaDataWidget5itemsEv@Base 4:4.13.2
@@ -67,15 +103,23 @@ libbaloowidgets.so.4 libfoo1 #MINVER#
  _ZNK5Baloo9TagWidget12selectedTagsEv@Base 4:4.13.2
  _ZNK5Baloo9TagWidget8readOnlyEv@Base 4:4.13.2
  _ZNK5Baloo9TagWidget9alignmentEv@Base 4:4.13.2
+ _ZTIN5Baloo12QueryBuilderE@Base 4:4.14.0
+ _ZTIN5Baloo15GroupedLineEditE@Base 4:4.14.0
  _ZTIN5Baloo18FileMetaDataWidgetE@Base 4:4.13.2
  _ZTIN5Baloo24FileMetaDataConfigWidgetE@Base 4:4.13.2
  _ZTIN5Baloo9TagWidgetE@Base 4:4.13.2
+ _ZTSN5Baloo12QueryBuilderE@Base 4:4.14.0
+ _ZTSN5Baloo15GroupedLineEditE@Base 4:4.14.0
  _ZTSN5Baloo18FileMetaDataWidgetE@Base 4:4.13.2
  _ZTSN5Baloo24FileMetaDataConfigWidgetE@Base 4:4.13.2
  _ZTSN5Baloo9TagWidgetE@Base 4:4.13.2
+ _ZTVN5Baloo12QueryBuilderE@Base 4:4.14.0
+ _ZTVN5Baloo15GroupedLineEditE@Base 4:4.14.0
  _ZTVN5Baloo18FileMetaDataWidgetE@Base 4:4.13.2
  _ZTVN5Baloo24FileMetaDataConfigWidgetE@Base 4:4.13.2
  _ZTVN5Baloo9TagWidgetE@Base 4:4.13.2
  (c++)"non-virtual thunk to Baloo::FileMetaDataConfigWidget::~FileMetaDataConfigWidget()@Base" 4:4.13.2
  (c++)"non-virtual thunk to Baloo::FileMetaDataWidget::~FileMetaDataWidget()@Base" 4:4.13.2
+ (c++)"non-virtual thunk to Baloo::GroupedLineEdit::~GroupedLineEdit()@Base" 4:4.14.0
+ (c++)"non-virtual thunk to Baloo::QueryBuilder::~QueryBuilder()@Base" 4:4.14.0
  (c++)"non-virtual thunk to Baloo::TagWidget::~TagWidget()@Base" 4:4.13.2
