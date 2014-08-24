@@ -1,7 +1,7 @@
 Source: baloo-widgets
 Section: kde
 Priority: optional
-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Maintainer: Debian/Ubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Rohan Garg <rohangarg@kubuntu.org>,
            Maximiliano Curia <maxy@debian.org>
 Build-Depends: baloo-dev,
