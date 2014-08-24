@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 4:4.14.0 amd64
-libbaloowidgets.so.4 libfoo1 #MINVER#
+libbaloowidgets.so.4 libbaloowidgets4 #MINVER#
  _ZN5Baloo12QueryBuilder10handleTermERKNS_4TermE@Base 4:4.14.0
  _ZN5Baloo12QueryBuilder11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.14.0
  _ZN5Baloo12QueryBuilder11qt_metacastEPKc@Base 4:4.14.0
