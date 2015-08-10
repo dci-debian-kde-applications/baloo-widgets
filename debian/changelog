@@ -1,6 +1,7 @@
 baloo-widgets (4:4.14.0-2~) UNRELEASED; urgency=medium
 
   * Update symbols files. (Closes: #777793)
+  * Add missing dev dependency (thanks to acc headers check)
 
  -- Maximiliano Curia <maxy@debian.org>  Mon, 10 Aug 2015 16:12:39 +0200
 

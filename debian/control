@@ -30,7 +30,9 @@ Description: Widgets for Baloo
 Package: libbaloowidgets-dev
 Architecture: any
 Section: libdevel
-Depends: libbaloowidgets4 (= ${binary:Version}),
+Depends: kdelibs5-dev (>= 4:4.10),
+         libbaloowidgets4 (= ${binary:Version}),
+         libkfilemetadata-dev,
          ${misc:Depends},
          ${shlibs:Depends}
 Description: Development headers for developing applications with Baloo

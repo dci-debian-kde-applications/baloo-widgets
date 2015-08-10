@@ -2,5 +2,5 @@ usr/include/baloo/filemetadataconfigwidget.h
 usr/include/baloo/filemetadatawidget.h
 usr/include/baloo/tagwidget.h
 usr/include/baloo/widgets_export.h
-usr/lib/libbaloowidgets.so
 usr/lib/cmake/BalooWidgets/
+usr/lib/libbaloowidgets.so
