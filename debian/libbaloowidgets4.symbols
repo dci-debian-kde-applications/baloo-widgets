@@ -9,9 +9,9 @@ libbaloowidgets.so.4 libbaloowidgets4 #MINVER#
  _ZN5Baloo12QueryBuilder7reparseEv@Base 4:4.14.0
  _ZN5Baloo12QueryBuilderC1EPNS_11QueryParserEP7QWidget@Base 4:4.14.0
  _ZN5Baloo12QueryBuilderC2EPNS_11QueryParserEP7QWidget@Base 4:4.14.0
- _ZN5Baloo12QueryBuilderD0Ev@Base 4:4.14.0
- _ZN5Baloo12QueryBuilderD1Ev@Base 4:4.14.0
- _ZN5Baloo12QueryBuilderD2Ev@Base 4:4.14.0
+ (optional=gccinternal)_ZN5Baloo12QueryBuilderD0Ev@Base 4:4.14.0
+ (optional=gccinternal)_ZN5Baloo12QueryBuilderD1Ev@Base 4:4.14.0
+ (optional=gccinternal)_ZN5Baloo12QueryBuilderD2Ev@Base 4:4.14.0
  _ZN5Baloo15GroupedLineEdit10paintEventEP11QPaintEvent@Base 4:4.14.0
  _ZN5Baloo15GroupedLineEdit11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.14.0
  _ZN5Baloo15GroupedLineEdit11qt_metacastEPKc@Base 4:4.14.0
@@ -121,5 +121,5 @@ libbaloowidgets.so.4 libbaloowidgets4 #MINVER#
  (c++)"non-virtual thunk to Baloo::FileMetaDataConfigWidget::~FileMetaDataConfigWidget()@Base" 4:4.13.2
  (c++)"non-virtual thunk to Baloo::FileMetaDataWidget::~FileMetaDataWidget()@Base" 4:4.13.2
  (c++)"non-virtual thunk to Baloo::GroupedLineEdit::~GroupedLineEdit()@Base" 4:4.14.0
- (c++)"non-virtual thunk to Baloo::QueryBuilder::~QueryBuilder()@Base" 4:4.14.0
+ (optional=gccinternal|c++)"non-virtual thunk to Baloo::QueryBuilder::~QueryBuilder()@Base" 4:4.14.0
  (c++)"non-virtual thunk to Baloo::TagWidget::~TagWidget()@Base" 4:4.13.2
