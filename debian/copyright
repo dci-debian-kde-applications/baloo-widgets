@@ -2,15 +2,7 @@ Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: baloo-widgets
 Source: http://community.kde.org/Baloo-Widgets
 
-Files: src/filemetadatawidget.cpp
-       src/filemetadatawidget.h
-       src/indexeddataretriever.cpp
-       src/indexeddataretriever.h
-       src/metadatafilter.cpp
-       src/metadatafilter.h
-       src/widgetfactory.cpp
-       src/widgetfactory.h
-       test/*
+Files: *
 Copyright: 2012-2013  Vishesh Handa <me@vhanda.in>
            2008 by Sebastian Trueg <trueg@kde.org>
            2009-2010 by Peter Penz <peter.penz@gmx.at>
