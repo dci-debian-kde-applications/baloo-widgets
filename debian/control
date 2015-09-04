@@ -1,7 +1,8 @@
 Source: baloo-widgets
-Section: kde
+Section: libs
 Priority: optional
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: baloo-kf5-dev,
                cmake,
                debhelper (>= 9.0.0),
@@ -12,14 +13,13 @@ Build-Depends: baloo-kf5-dev,
                libkf5service-dev,
                pkg-kde-tools
 Standards-Version: 3.9.6
-Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/kde-applications/baloo-widgets.git/
+Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/kde-applications/baloo-widgets.git
 Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-applications/baloo-widgets.git
 Homepage: http://projects.kde.org/baloo-widgets
 
 Package: libkf5baloowidgets5
-Multi-Arch: same
 Architecture: any
-Section: libs
+Multi-Arch: same
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Recommends: libkf5baloowidgets-bin
 Description: Wigets for use with Baloo
@@ -29,7 +29,6 @@ Description: Wigets for use with Baloo
 
 Package: libkf5baloowidgets-bin
 Architecture: any
-Section: libs
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Wigets for use with Baloo - binaries
  Baloo is a framework for searching and managing metadata.
@@ -37,22 +36,22 @@ Description: Wigets for use with Baloo - binaries
  This package contains binaries used by the baloo widgets library.
 
 Package: libkf5baloowidgets-dev
-Architecture: any
 Section: libdevel
+Architecture: any
+Multi-Arch: foreign
 Depends: libkf5baloowidgets5 (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
-Multi-Arch: foreign
 Description: Development headers for developing applications with Baloo
  Baloo is a framework for searching and managing metadata.
  .
  This package contains development headers for Baloo Widgets library.
 
 Package: libkf5baloowidgets5-dbg
+Section: debug
+Priority: extra
 Architecture: any
 Depends: libkf5baloowidgets5 (= ${binary:Version}), ${misc:Depends}
-Priority: extra
-Section: debug
 Description: Debugging symbols for Baloo Widgets
  Baloo is a framework for searching and managing metadata in KDE.
  .
