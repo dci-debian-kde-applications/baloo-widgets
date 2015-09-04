@@ -38,7 +38,7 @@ Description: Wigets for use with Baloo - binaries
 Package: libkf5baloowidgets-dev
 Section: libdevel
 Architecture: any
-Multi-Arch: foreign
+Multi-Arch: same
 Depends: libkf5baloowidgets5 (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
