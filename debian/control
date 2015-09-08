@@ -30,7 +30,7 @@ Description: Wigets for use with Baloo
 Package: libkf5baloowidgets-bin
 Architecture: any
 Section: libs
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Depends: baloo-kf5, ${misc:Depends}, ${shlibs:Depends}
 Description: Wigets for use with Baloo - binaries
  Baloo is a framework for searching and managing metadata.
  .
