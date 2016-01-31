@@ -3,7 +3,7 @@
 include /usr/share/pkg-kde-tools/qt-kde-team/3/debian-qt-kde.mk
 
 override_dh_strip:
-	dh_strip --dbg-package=libkf5baloowidgets5-dbg
+	dh_strip --ddeb-migration='libkf5baloowidgets5-dbg (<= 15.12.0-1~~)'
 
 override_dh_auto_test:
 	# Disable unit tests at build time

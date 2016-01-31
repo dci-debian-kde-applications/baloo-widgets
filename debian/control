@@ -50,13 +50,3 @@ Description: Development headers for developing applications with Baloo
  Baloo is a framework for searching and managing metadata.
  .
  This package contains development headers for Baloo Widgets library.
-
-Package: libkf5baloowidgets5-dbg
-Section: debug
-Priority: extra
-Architecture: any
-Depends: libkf5baloowidgets5 (= ${binary:Version}), ${misc:Depends}
-Description: Debugging symbols for Baloo Widgets
- Baloo is a framework for searching and managing metadata in KDE.
- .
- This package contains debugging symbols for Baloo Widgets library.
