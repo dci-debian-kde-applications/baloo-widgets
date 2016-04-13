@@ -1,3 +1,11 @@
+baloo-widgets5 (15.12.0-2~1.gbp6285a4) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @6285a431aa8851186e64aac95ad746db67a28ac9 **
+
+  * Bump Standards-Version to 3.9.8
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 13 Apr 2016 12:27:56 +0200
+
 baloo-widgets5 (15.12.0-1) experimental; urgency=medium
 
   * New upstream release (15.12.0).
