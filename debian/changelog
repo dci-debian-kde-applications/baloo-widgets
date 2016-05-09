@@ -1,3 +1,12 @@
+baloo-widgets5 (16.04.0-1~1.gbp08c38e) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @08c38efe1ad99a70341edcc0690ee098e2585960 **
+
+  * Bump Standards-Version to 3.9.8
+  * Update build-deps and deps with the info from cmake
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 21 Apr 2016 04:27:11 +0200
+
 baloo-widgets5 (15.12.0-1) experimental; urgency=medium
 
   * New upstream release (15.12.0).

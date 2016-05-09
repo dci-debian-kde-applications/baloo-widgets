@@ -3,19 +3,19 @@ Section: libs
 Priority: optional
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Maximiliano Curia <maxy@debian.org>
-Build-Depends: baloo-kf5-dev (>= 5.13),
+Build-Depends: baloo-kf5-dev (>= 5.19~),
                cmake (>= 2.8.12~),
                debhelper (>= 9.0.0),
                extra-cmake-modules (>= 0.0.14~),
-               kio-dev,
-               libkf5config-dev,
-               libkf5filemetadata-dev,
-               libkf5i18n-dev,
+               kio-dev (>= 5.19~),
+               libkf5config-dev (>= 5.19~),
+               libkf5filemetadata-dev (>= 5.19~),
+               libkf5i18n-dev (>= 5.19~),
                libkf5kdelibs4support-dev,
                libkf5service-dev,
                pkg-kde-tools,
                qtbase5-dev
-Standards-Version: 3.9.6
+Standards-Version: 3.9.8
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/kde-applications/baloo-widgets.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/kde-applications/baloo-widgets.git
 Homepage: http://projects.kde.org/baloo-widgets
@@ -42,7 +42,7 @@ Package: libkf5baloowidgets-dev
 Section: libdevel
 Architecture: any
 Multi-Arch: same
-Depends: kio-dev,
+Depends: kio-dev (>= 5.19~),
          libkf5baloowidgets5 (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
