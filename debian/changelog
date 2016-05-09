@@ -1,11 +1,19 @@
-baloo-widgets5 (16.04.0-1~1.gbp08c38e) UNRELEASED; urgency=medium
+baloo-widgets5 (16.04.0-1~2.gbpf27d06) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @f27d06017f451f76c7ff018af0917c4350de8861 **
+
+  [ Automatic packaging ]
   ** SNAPSHOT build @08c38efe1ad99a70341edcc0690ee098e2585960 **
 
   * Bump Standards-Version to 3.9.8
   * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 21 Apr 2016 04:27:11 +0200
+  [ Maximiliano Curia ]
+  * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Mon, 09 May 2016 13:27:16 +0200
 
 baloo-widgets5 (15.12.0-1) experimental; urgency=medium
 
