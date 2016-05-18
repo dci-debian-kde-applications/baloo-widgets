@@ -1,3 +1,9 @@
+baloo-widgets5 (16.04.1-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 18 May 2016 18:10:50 +0200
+
 baloo-widgets5 (15.12.0-1) experimental; urgency=medium
 
   * New upstream release (15.12.0).
