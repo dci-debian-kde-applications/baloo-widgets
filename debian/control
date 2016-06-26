@@ -16,8 +16,8 @@ Build-Depends: baloo-kf5-dev (>= 5.19~),
                pkg-kde-tools,
                qtbase5-dev
 Standards-Version: 3.9.8
-Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/kde-applications/baloo-widgets.git
-Vcs-Git: https://anonscm.debian.org/git/pkg-kde/kde-applications/baloo-widgets.git
+Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/baloo-widgets.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/baloo-widgets.git
 Homepage: http://projects.kde.org/baloo-widgets
 
 Package: libkf5baloowidgets5
