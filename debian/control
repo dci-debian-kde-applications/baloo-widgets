@@ -46,6 +46,8 @@ Package: libkf5baloowidgets5
 Architecture: any
 Multi-Arch: same
 Depends: libkf5filemetadata-bin, ${misc:Depends}, ${shlibs:Depends}
+Breaks: ${kde-l10n:all}
+Replaces: ${kde-l10n:all}
 Recommends: libkf5baloowidgets-bin
 Description: Wigets for use with Baloo
  Baloo is a framework for searching and managing metadata.
