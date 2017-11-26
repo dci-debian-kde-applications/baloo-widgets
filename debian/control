@@ -33,7 +33,6 @@ Multi-Arch: same
 Depends: kio-dev (>= 5.19~),
          libkf5baloowidgets5 (= ${binary:Version}),
          ${misc:Depends},
-         ${shlibs:Depends},
 Description: Development headers for developing applications with Baloo
  Baloo is a framework for searching and managing metadata.
  .

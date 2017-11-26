@@ -8,6 +8,7 @@ baloo-widgets (4:17.08.3-0r1) UNRELEASED; urgency=medium
   * Bump Standards-Version to 4.1.1, no changes required.
   * Remove unused build dependencies: kio-dev, libkf5kdelibs4support-dev, and
     libkf5service-dev.
+  * Drop unused ${shlibs:Depends} substvar from libkf5baloowidgets-dev.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 26 Nov 2017 10:02:15 +0100
 
