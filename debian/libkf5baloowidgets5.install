@@ -1,3 +1,5 @@
 usr/lib/*/libKF5BalooWidgets.so.5
 usr/lib/*/libKF5BalooWidgets.so.5.*
+usr/lib/*/qt5/plugins/baloofilepropertiesplugin.so
+usr/share/kservices5/baloofilepropertiesplugin.desktop
 usr/share/locale/
